@@ -58,7 +58,7 @@ body{
     color: rgb(228 43 23);
 }
 .navbar-light .navbar-nav li:hover .circle{
-    background-image: url(./IMAGES/common/circle-red.png);
+    background-image: url(../IMAGES/common/circle-red.png);
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #4478fc;
@@ -94,16 +94,16 @@ body{
         background-size: 20px 20px;
         width: 20px;
         height: 20px;
-        background-image: url(./IMAGES/common/circle-blue.png);
+        background-image: url(../IMAGES/common/circle-blue.png);
     }
 
     .navbar-expand-md>.container {
-        background-image: url(./IMAGES/common/dotted\ line.png);
+        background-image: url(../IMAGES/common/dotted\ line.png);
         background-repeat: repeat-x;
         background-position: 0 86.5%;
     }
     .drawing {
-        background-image: url(./IMAGES/common/dotted\ line.png);
+        background-image: url(.,/IMAGES/common/dotted\ line.png);
         background-repeat: repeat-x;
         background-position: 0 86.5%;
     }
@@ -114,7 +114,7 @@ body{
         background-size: 20px 20px;
         width: 20px;
         height: 20px;
-        background-image: url(./IMAGES/common/circle-red.png);
+        background-image: url(.,/IMAGES/common/circle-red.png);
     }
 }
   
