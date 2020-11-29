@@ -1,0 +1,245 @@
+.painting{
+    padding: 120px 10% 0px;
+    text-align: center; 
+}
+.sun-moon{
+    padding: 120px 28% 0px; 
+}
+.work{
+    padding: 120px 28% 0px;
+    text-align: center; 
+}
+.exhibition{
+    padding: 120px 25% 0px;
+    text-align: center; 
+}
+
+.drawings{
+    padding: 100px 10%;
+    text-align: center; 
+}
+
+.card-body{
+    padding: 0px !important;
+    background-color: #2b2a30;
+}
+
+.card-img, .card-img-top {
+    border-radius: 1rem;
+}
+
+.card-title{
+    padding-top: 0.4em;
+    font-size: medium;
+    color: rgb(150, 150, 150);
+}
+
+.card{
+    border-color: #2b2a30;
+    border-radius: 1.1rem;
+    margin: 0px 0.5em;
+}
+
+
+body{
+    background-color: #2b2a30;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* -----------navbar---------------------- */
+
+.bg-light{
+    background-color: rgb(43 42 48 / 60%)  !important;
+}
+
+.navbar-light .navbar-brand{
+    color: rgb(228 43 23);
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus
+ {
+    color: #4478fc;
+}
+
+.navbar-light .navbar-nav li:hover .nav-link:hover {
+    color: rgb(228 43 23);
+}
+ .navbar-light .navbar-nav li:hover>.nav-link {
+    color: rgb(228 43 23);
+}
+.navbar-light .navbar-nav li:hover .circle{
+    background-image: url(../IMAGES/common/circle-red.png);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #4478fc;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: rgb(228 43 23);
+}
+.mb-4, .my-4 {
+   /* margin-bottom: 1rem!important;  */
+   /* border-bottom: 2px solid  #1d3e8f; */
+}
+
+
+/* ------------dropdown menu-------------- */
+
+.dropdown-menu{
+    background-color: rgb(43 42 48 / 60%)  !important;
+    border-color: rgb(43 42 48 / 60%); 
+}
+
+.dropdown-item{
+    color: rgb(255 119 0 / 60%);
+}
+
+.nav-link{
+    color: rgb(228 43 23);
+}
+
+/* ------------circles-------------- */
+.circle {
+    display: none; 
+}
+
+/* ------------final Line-------------- */
+.finalLine{
+    background-image: url(../IMAGES/common/dotted\ line.png);
+    background-repeat: repeat-x;
+    background-position: 0 76.5%; 
+    min-width: 30px;
+    min-height: 30px; 
+}
+
+
+@media screen and (min-width: 768px) {
+    .circle {
+        display: block;
+        margin: auto;
+        background-size: 20px 20px;
+        width: 20px;
+        height: 20px;
+        background-image: url(../IMAGES/common/circle-blue.png);
+    }
+/* ------------start Line-------------- */
+    .fixed-top {
+        background-image: url(../IMAGES/common/dotted\ line.png);
+        background-repeat: repeat-x;
+        background-position: 0 76.5%;
+    }
+
+    .circle-active{
+        display: block;
+        margin: auto;
+        background-size: 20px 20px;
+        width: 20px;
+        height: 20px;
+        background-image: url(../IMAGES/common/circle-red.png);
+    }
+}
+
+/* ------------bio-------------- */
+
+#bio {
+    color: #4478fc;
+    list-style-type: none;
+}
+
+.card .bio{
+    width: 100px;
+}
+  
+/* --------------------work buttons--------------------------- */
+
+.btn {
+    border-radius: 1.25rem;
+}
+.btn:hover {
+    background-color: rgb(43 42 48 / 85%); 
+    color: rgb(229 43 24); 
+    font-weight: 700;
+}
+.btn:focus {
+    background-color: rgb(43 42 48 / 85%); 
+    color: rgb(229 43 24); 
+    font-weight: 700;
+}
+
+/* .btn-primary {
+    background-color: rgb(43 42 48 / 70%); 
+    color: #4478fc;
+    font-weight: 700;
+    border: none;
+} */
+
+.workText{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #4478fc;
+    display: block;
+    padding-top: 3%;
+}
+
+.card :hover{
+    color: rgb(228 43 23);
+}
+
+.card-img-overlay {
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* --------------------work padding to keep buttons in place--------------------------- */
+
+@media (max-width:1650px){
+    .work {
+        padding: 120px 20% 0px;
+    }
+}
+@media (max-width:1400px){
+    .work {
+        padding: 120px 15% 0px;
+    }
+}
+@media (max-width:1200px){
+    .work {
+        padding: 120px 10% 0px;
+    }
+}
+
+/* --------------------contact page--------------------------- */
+.jumbotron {
+    background-color: rgb(43 42 48);
+    padding: 120px 25%;
+    font-family: 'Comfortaa', cursive;
+}
+
+.panel-body {
+    padding: 30px;
+    background-color: rgb(43 42 48);
+}
+
+/* --------------------gallery--------------------------- */
+
+.mfp-title {
+    font-size: 12px;
+    color: #4478fc;
+}
+
+
+.mfp-counter {
+    display: none;
+}
+
+/* ---------------------copy right------------------------ */
+
+.copy {
+    text-align: center;
+    color: #1C3E8F;
+}
+
+
+
